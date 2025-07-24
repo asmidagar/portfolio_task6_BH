@@ -1,0 +1,40 @@
+/* General page styling */
+body {
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+/* Centered content block */
+.container {
+    margin-top: 10vh;
+    padding: 30px;
+    background-color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #34495e;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 10px;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #1abc9c;
+}
